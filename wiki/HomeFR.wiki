@@ -7,5 +7,5 @@ Ceci est la page d'accueil pour le wiki des projets sur le dépôt de Guillaume 
 
 = Sommaire =
 
-  * [TP2FR] - un travail pratique en programmation
-  * Arteymis' Law Rune Rusher - un bot pour RSBot
+  * [TP2] - un travail pratique en programmation
+  * [ArteymisLawRuneRusher] - un bot pour RSBot

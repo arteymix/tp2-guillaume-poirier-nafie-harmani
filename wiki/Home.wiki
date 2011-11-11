@@ -2,12 +2,11 @@
 
 = Introduction =
 
-Add your content here.
+Ceci est la page d'accueil pour le wiki des projets sur le dépôt de Guillaume Poirier-Morency et Nafie Hamrani.
 
 
-= Details =
+= Sommaire =
 
 Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * TP2 - un travail pratique en programmation
+  * Arteymis' Law Rune Rusher - un bot pour RSBot

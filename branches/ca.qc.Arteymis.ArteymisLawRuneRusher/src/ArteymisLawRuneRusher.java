@@ -454,27 +454,27 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
      */
     private boolean checkInventoryForRunes() {
         try {
-            this.RunesAmounts[0] = this.inventory.getItem(this.AIR_RUNE_ID).getStackSize();
-            this.log(Color.BLUE, this.RunesAmounts[0] + " Air runes detected in your inventory.");
+            RunesAmounts[0] = inventory.getItem(AIR_RUNE_ID).getStackSize();
+            log(Color.BLUE, RunesAmounts[0] + " Air runes detected in your inventory.");
         } catch (Exception e) {
-            this.RunesAmounts[0] = 0;
-            this.log(Color.RED, "No Air runes detected in your inventory!");
+            RunesAmounts[0] = 0;
+            log(Color.RED, "No Air runes detected in your inventory!");
             return false;
         }
         try {
-            this.RunesAmounts[1] = this.inventory.getItem(this.WATER_RUNE_ID).getStackSize();
-            this.log(Color.BLUE, this.RunesAmounts[1] + " Water runes detected in your inventory.");
+            RunesAmounts[1] = inventory.getItem(WATER_RUNE_ID).getStackSize();
+            log(Color.BLUE, RunesAmounts[1] + " Water runes detected in your inventory.");
         } catch (Exception e) {
-            this.RunesAmounts[1] = 0;
-            this.log(Color.RED, "No Water runes detected in your inventory!");
+            RunesAmounts[1] = 0;
+            log(Color.RED, "No Water runes detected in your inventory!");
             return false;
         }
         try {
             this.RunesAmounts[2] =
-                    this.inventory.getCount(this.PURE_ESSENCE_ID);
+                    this.inventory.getCount(PURE_ESSENCE_ID);
         } catch (Exception e) {
-            this.RunesAmounts[2] = 0;
-            this.log(Color.RED, "No Pure essences detected in your inventory!");
+            RunesAmounts[2] = 0;
+            log(Color.RED, "No Pure essences detected in your inventory!");
         }
         // Print how many rounds could be acheived...
         long NumberOfRounds = RunesAmounts[0] <= RunesAmounts[1] ? RunesAmounts[0] : RunesAmounts[1];
@@ -489,7 +489,7 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
     private boolean checkBankForPureEssences() {
         this.bank.open();
         try {
-            this.RunesAmounts[2] += this.bank.getItem(this.PURE_ESSENCE_ID).getStackSize();
+            this.RunesAmounts[2] += this.bank.getItem(PURE_ESSENCE_ID).getStackSize();
             this.log(Color.BLUE, this.RunesAmounts[2] + " Pure essences detected in your bank account!");
             return true;
         } catch (Exception e) {
@@ -520,16 +520,16 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
      * @return true if Explorer's ring 3 or 4 found, false otherwise.
      */
     private boolean checkEquipmentForExplorersRing() {
-        if (this.equipment.getItem(Equipment.RING).getID() == this.EXPLORERS_RING_3_ID) {
-            this.ExplorersRing3State = 1;
-            this.log(Color.BLUE, "Explorer's ring 3 detected on you.");
+        if (equipment.getItem(Equipment.RING).getID() == EXPLORERS_RING_3_ID) {
+            ExplorersRing3State = 1;
+            log(Color.BLUE, "Explorer's ring 3 detected on you.");
             return true;
-        } else if (this.equipment.getItem(Equipment.RING).getID() == this.EXPLORERS_RING_4_ID) {
-            this.ExplorersRing4State = 1;
-            this.log(Color.BLUE, "Explorer's ring 4 detected on you.");
+        } else if (equipment.getItem(Equipment.RING).getID() == EXPLORERS_RING_4_ID) {
+            ExplorersRing4State = 1;
+            log(Color.BLUE, "Explorer's ring 4 detected on you.");
             return true;
         } else {
-            this.log(Color.RED, "Neither Explorer's ring 3 or 4 were detected in your inventory!");
+            log(Color.RED, "Neither Explorer's ring 3 or 4 were detected in your inventory!");
             return false;
         }
     }
@@ -542,15 +542,15 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
         /* Law tiara and rings have already been checked...
          */
         if (this.equipment.getItem(Equipment.AMMO).getID() != -1
-                || this.equipment.getItem(Equipment.BODY).getID() != -1
-                || this.equipment.getItem(Equipment.CAPE).getID() != -1
-                || this.equipment.getItem(Equipment.FEET).getID() != -1
-                || this.equipment.getItem(Equipment.HANDS).getID() != -1
-                || this.equipment.getItem(Equipment.LEGS).getID() != -1
-                || this.equipment.getItem(Equipment.NECK).getID() != -1
-                || this.equipment.getItem(Equipment.SHIELD).getID() != -1
-                || this.equipment.getItem(Equipment.WEAPON).getID() != -1) {
-            this.log(Color.RED, "An invalid equipment is detected! Just keep your Law tiara and Explorer's ring.");
+                || equipment.getItem(Equipment.BODY).getID() != -1
+                || equipment.getItem(Equipment.CAPE).getID() != -1
+                || equipment.getItem(Equipment.FEET).getID() != -1
+                || equipment.getItem(Equipment.HANDS).getID() != -1
+                || equipment.getItem(Equipment.LEGS).getID() != -1
+                || equipment.getItem(Equipment.NECK).getID() != -1
+                || equipment.getItem(Equipment.SHIELD).getID() != -1
+                || equipment.getItem(Equipment.WEAPON).getID() != -1) {
+            log(Color.RED, "An invalid equipment is detected! Just keep your Law tiara and Explorer's ring.");
             return false;
         } else {
             return true;
@@ -563,12 +563,12 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
      */
     private boolean checkInventoryForForbiddenEquipments() {
         int InvalidEquipmentsCount;
-        if ((InvalidEquipmentsCount = this.inventory.getCountExcept(
-                this.AIR_RUNE_ID, this.WATER_RUNE_ID, this.LAW_RUNE_ID,
-                this.PURE_ESSENCE_ID, this.SMALL_POUCH_ID, this.MEDIUM_POUCH_ID,
-                this.LARGE_POUCH_ID, this.GIANT_POUCH_ID,
-                this.LAW_TALISMAN_ID)) > 0) {
-            this.log(Color.RED, InvalidEquipmentsCount + " invalid equipments is detected! Just keep your Law tiara and Explorer's ring.");
+        if ((InvalidEquipmentsCount = inventory.getCountExcept(
+                AIR_RUNE_ID, WATER_RUNE_ID, LAW_RUNE_ID,
+                PURE_ESSENCE_ID, SMALL_POUCH_ID, MEDIUM_POUCH_ID,
+                LARGE_POUCH_ID, GIANT_POUCH_ID,
+                LAW_TALISMAN_ID)) > 0) {
+            log(Color.RED, InvalidEquipmentsCount + " invalid equipments is detected! Just keep your Law tiara and Explorer's ring.");
             return false;
         }
         return true;
@@ -587,13 +587,13 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
         while (!rsarea.contains(this.getMyPlayer().getLocation())) {
             // Checks if the script is running before walking...
 
-            this.walking.walkTo(rstile);
-            this.camera.getCharacterAngle(this.getMyPlayer());
-            if (this.walking.isRunEnabled()) {
+            walking.walkTo(rstile);
+            camera.getCharacterAngle(getMyPlayer());
+            if (walking.isRunEnabled()) {
                 ArteymisLawRuneRusher.sleep(1000);
             } else {
-                if (this.walking.getEnergy() >= this.MinimumEnergyToRun) {
-                    this.walking.setRun(true);
+                if (walking.getEnergy() >= MinimumEnergyToRun) {
+                    walking.setRun(true);
                     ArteymisLawRuneRusher.sleep(1000);
                 } else {
                     ArteymisLawRuneRusher.sleep(1500);
@@ -609,26 +609,26 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
      */
     private int walkFromCabbageTeleportToPortSarimDocks() {
         Timer CabbageTeleportTimeOut = new Timer(
-                this.TELEPORT_AND_MAP_CHANGING_TIME_OUT);
-        while (!this.getMyPlayer().getLocation().equals(
-                this.WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_BEGIN)) {
+                TELEPORT_AND_MAP_CHANGING_TIME_OUT);
+        while (!getMyPlayer().getLocation().equals(
+                WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_BEGIN)) {
             if (CabbageTeleportTimeOut.isRunning()) {
                 sleep(1000);
             } else {
-                this.log(Color.RED, "Cabbage teleport has timed out!");
-                this.NextStep = possibilities.GENERATE_NEXT_STEP;
+                log(Color.RED, "Cabbage teleport has timed out!");
+                NextStep = possibilities.GENERATE_NEXT_STEP;
                 return 0;
             }
         }
-        this.optimizedWalker(this.WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_FENCE, this.CABBAGE_PORT_FENCE);
-        if (this.objects.getNearest("Gate").interact("Open")) { // TODO This can end in a null pointer exception!
+        optimizedWalker(WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_FENCE, CABBAGE_PORT_FENCE);
+        if (objects.getNearest("Gate").interact("Open")) { // TODO This can end in a null pointer exception!
             sleep(500);
         }
-        this.optimizedWalker(WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_DOCK_ENTRANCE, PORT_SARIM_DOCK_ENTRANCE);
-        this.optimizedWalker(
-                this.WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_END,
-                this.PORT_SARIM_DEPOSIT_BOX);
-        this.NextStep = possibilities.USE_DOCKS_DEPOSIT_BOX;
+        optimizedWalker(WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_DOCK_ENTRANCE, PORT_SARIM_DOCK_ENTRANCE);
+        optimizedWalker(
+                WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_END,
+                PORT_SARIM_DEPOSIT_BOX);
+        NextStep = possibilities.USE_DOCKS_DEPOSIT_BOX;
         return 0;
     }
 
@@ -637,22 +637,22 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
      * @return see loop() return.
      */
     private int useDocksDepositBox() {
-        this.inventory.getItem(this.PURE_ESSENCE_ID).interact("Drop");
-        this.equipment.getItem(Equipment.RING).interact("Remove");
-        this.bank.openDepositBox();
-        if (this.ExplorersRing3State == 1) {
-            this.ExplorersRing3State = this.bank.deposit(this.EXPLORERS_RING_3_ID, 1) ? 1 : 0;// TODO Weird stuff happening here...
-        } else if (this.ExplorersRing4State == 1) {
-            this.ExplorersRing4State = this.bank.deposit(this.EXPLORERS_RING_4_ID, 1) ? 1 : 0;
+        inventory.getItem(PURE_ESSENCE_ID).interact("Drop");
+        equipment.getItem(Equipment.RING).interact("Remove");
+        bank.openDepositBox();
+        if (ExplorersRing3State == 1) {
+            ExplorersRing3State = bank.deposit(EXPLORERS_RING_3_ID, 1) ? 1 : 0;// TODO Weird stuff happening here...
+        } else if (ExplorersRing4State == 1) {
+            ExplorersRing4State = bank.deposit(EXPLORERS_RING_4_ID, 1) ? 1 : 0;
         } else {
-            this.log(Color.RED, "Explorer's ring 3 or 4 is not anymore detected!");
-            this.NextStep = possibilities.GENERATE_NEXT_STEP;
+            log(Color.RED, "Explorer's ring 3 or 4 is not anymore detected!");
+            NextStep = possibilities.GENERATE_NEXT_STEP;
             return 0;
         }
-        this.bank.close();
-        this.groundItems.getNearest(this.PURE_ESSENCE_ID).interact("Take");
+        bank.close();
+        groundItems.getNearest(PURE_ESSENCE_ID).interact("Take");
         sleep(500); // Only to have the time to recuperate the Pure essence..
-        this.NextStep = possibilities.TAKE_BOAT_TO_ENTRANA;
+        NextStep = possibilities.TAKE_BOAT_TO_ENTRANA;
         return 0;
     }
 
@@ -765,20 +765,20 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
         /* TODO Recode this better.
          */
         int n = 0;
-        while (!this.magic.castSpell(Magic.SPELL_MOBILISING_ARMIES_TELEPORT) && n < 5) {
+        while (!magic.castSpell(Magic.SPELL_MOBILISING_ARMIES_TELEPORT) && n < 5) {
             sleep(1000);
             n++;
         }
         if (n == 5) {
-            this.log(Color.RED, "Mobilising Armies teleport has timed out!1");
-            this.NextStep = possibilities.GENERATE_NEXT_STEP;
+            log(Color.RED, "Mobilising Armies teleport has timed out!1");
+            NextStep = possibilities.GENERATE_NEXT_STEP;
             return 0;
         } else {
             Timer MobilisingArmiesTeleportTimeOut = new Timer(5000);
-            while (!this.MOBILISING_ARMIES_ENTRANCE.contains(this.getMyPlayer().getLocation())) {
+            while (!MOBILISING_ARMIES_ENTRANCE.contains(getMyPlayer().getLocation())) {
                 if (!MobilisingArmiesTeleportTimeOut.isRunning()) {
-                    this.log(Color.RED, "Mobilising Armies teleport has timed out!");
-                    this.NextStep = possibilities.GENERATE_NEXT_STEP;
+                    log(Color.RED, "Mobilising Armies teleport has timed out!");
+                    NextStep = possibilities.GENERATE_NEXT_STEP;
                     return 0;
                 }
             }
@@ -799,32 +799,32 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
         /* Works very well, but will need a debugging, especially for pins
          * managing.
          */
-        if (!this.bank.isOpen()) {
+        if (!bank.isOpen()) {
             try {
-                this.bank.open();
+                bank.open();
             } catch (Exception e) {
-                this.log(Color.RED, "Couldn't open the bank!");
-                this.NextStep = possibilities.GENERATE_NEXT_STEP;
+                log(Color.RED, "Couldn't open the bank!");
+                NextStep = possibilities.GENERATE_NEXT_STEP;
                 return 0;
             }
         }
-        this.bank.depositAllExcept(this.AIR_RUNE_ID, this.WATER_RUNE_ID, this.LAW_TALISMAN_ID, this.SMALL_POUCH_ID, this.MEDIUM_POUCH_ID, this.LARGE_POUCH_ID, this.GIANT_POUCH_ID, this.PURE_ESSENCE_ID);
+        this.bank.depositAllExcept(AIR_RUNE_ID, WATER_RUNE_ID, LAW_TALISMAN_ID, SMALL_POUCH_ID, MEDIUM_POUCH_ID, this.LARGE_POUCH_ID, this.GIANT_POUCH_ID, this.PURE_ESSENCE_ID);
         // Sometimes, withdrawing fails...
         if (this.ExplorersRing3State == 0 | this.ExplorersRing4State == 0) {
             log("I'm trying to withdraw explo rings...");
             int n = 0;
-            while (!(this.bank.withdraw(this.EXPLORERS_RING_3_ID, 1) | !this.bank.withdraw(this.EXPLORERS_RING_4_ID, 1)) && n < 5) {
+            while (!(bank.withdraw(EXPLORERS_RING_3_ID, 1) | !bank.withdraw(EXPLORERS_RING_4_ID, 1)) && n < 5) {
                 n++;
             }
             if (n == 5) {
                 log(Color.RED, "Neither Explorer's ring 3 or 4 have been found!");
-                this.NextStep = possibilities.GENERATE_NEXT_STEP;
+                NextStep = possibilities.GENERATE_NEXT_STEP;
                 return 0;
             } else {
 
                 // Everything happened well, we can wear the ring from the equipment window...
                 sleep(3000);
-                this.bank.getEquipmentItem(this.EXPLORERS_RING_3_ID).interact("Wear");
+                bank.getEquipmentItem(EXPLORERS_RING_3_ID).interact("Wear");
                 // TODO There's big fail in here...
             }
         }
@@ -852,12 +852,12 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
 
     private int withdrawPureEssence() {
         int n = 0;
-        while (!this.bank.withdraw(this.PURE_ESSENCE_ID, 26) && n < 5) {
+        while (!bank.withdraw(PURE_ESSENCE_ID, 26) && n < 5) {
             n++;
         }
         if (n == 5) {
-            this.log(Color.RED, "Couldn't retrieve Pure essence from your bank!");
-            this.NextStep = possibilities.GENERATE_NEXT_STEP;
+            log(Color.RED, "Couldn't retrieve Pure essence from your bank!");
+            NextStep = possibilities.GENERATE_NEXT_STEP;
             return 0;
         }
         return 1;
@@ -870,20 +870,20 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
     private int useCabbageTeleport() {
         try {
             int n = 0;
-            while (!this.equipment.getItem(Equipment.RING).interact("Cabbage-port") && n < 5) {
+            while (!equipment.getItem(Equipment.RING).interact("Cabbage-port") && n < 5) {
                 n++;
             }
             if (n == 5) {
                 log(Color.RED, "Cabbage teleport has timed out.");
-                this.NextStep = possibilities.GENERATE_NEXT_STEP;
+                NextStep = possibilities.GENERATE_NEXT_STEP;
                 return 0;
             } else {
 
-                this.NextStep = possibilities.WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_DOCKS;
+                NextStep = possibilities.WALK_FROM_CABBAGE_TELEPORT_TO_PORT_SARIM_DOCKS;
             }
         } catch (Exception e) {
-            this.log(Color.RED, "Neither Explorer's ring 3 or 4 are available!");
-            this.NextStep = possibilities.GENERATE_NEXT_STEP;
+            log(Color.RED, "Neither Explorer's ring 3 or 4 are available!");
+            NextStep = possibilities.GENERATE_NEXT_STEP;
         }
         return 0;
     }
@@ -895,7 +895,7 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
     private int generateNextStep() {
         /* Not taken in charge yet...
          */
-        this.NextStep = possibilities.EXIT;
+        NextStep = possibilities.EXIT;
         return 0;
     }
 
@@ -924,13 +924,13 @@ final public class ArteymisLawRuneRusher extends Script implements PaintListener
             }
             double CurrentVersion = getClass().getAnnotation(ScriptManifest.class).version();
             String Message = LatestVersion < CurrentVersion ? ", you should update to the latest version!" : ", you have the latest version of this script.";
-            this.log(LatestVersion < CurrentVersion ? Color.RED : Color.BLUE, "Latest version available : " + LatestVersion + Message);
+            log(LatestVersion < CurrentVersion ? Color.RED : Color.BLUE, "Latest version available : " + LatestVersion + Message);
         } catch (IOException ioe) {
-            this.log(Color.RED, "Couldn't retreive latest version due to a connection issue!");
+            log(Color.RED, "Couldn't retreive latest version due to a connection issue!");
         } catch (NumberFormatException nfe) {
-            this.log(Color.RED, "Couldn't reveice latest version; no version were available on PowerBot website!.");
+            log(Color.RED, "Couldn't reveice latest version; no version were available on PowerBot website!.");
         } catch (Exception e) {
-            this.log(Color.RED, "Couldn't retreive latest version due to an unknown reason!");
+            log(Color.RED, "Couldn't retreive latest version due to an unknown reason!");
         }
     }
 }

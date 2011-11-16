@@ -6,9 +6,13 @@ Add your content here.
 
 = Variables =
 
-  * imageBank
-  * latency
-    Jeu d'essai sur latency...
+== imageBank ==
+
+== latency ==
+
+|| stuff || stuff||
+
+
   * tempsDuRendu
   * isRunning
   * isPaused

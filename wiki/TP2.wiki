@@ -27,6 +27,5 @@ Package util :
   * [Collisionable]
   * [Dessinable]
   * [KeyBoardListener]
-  * [Dessinable]
   * [SoundManager]
   * [Vecteur]

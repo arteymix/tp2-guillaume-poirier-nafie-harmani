@@ -4,7 +4,9 @@
 
 Cette section du wiki présente la documentation complète du travail pratique 2 par Guillaume Poirier-Morency et Nafie Hamrani.
 
-Toutes les classes Java ont leurs équivalent en page de documentation wiki accompagné de jeux d'essai et une auto-évaluation.
+Toutes les classes Java ont leurs équivalent en page de documentation wiki accompagné de jeux d'essai.
+
+Une auto-évaluation est aussi disponible ici : [AutoEvaluation].
 
 = Details =
 

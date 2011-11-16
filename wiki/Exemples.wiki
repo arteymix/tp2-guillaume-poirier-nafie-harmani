@@ -6,4 +6,7 @@ Exemples est une classe qui présente des exemples d'utilisation de l'API afin d
 
 = Variables =
 
-  * r
+== r ==
+
+|| valeur de r || résultat ||
+|| null        || NullPointerException ||

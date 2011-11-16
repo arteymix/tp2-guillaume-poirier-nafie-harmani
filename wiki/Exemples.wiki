@@ -3,8 +3,7 @@
 = Introduction =
 
 Exemples est une classe qui présente des exemples d'utilisation de l'API afin de faciliter la standardisation du code.
+
 = Variables =
 
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * r

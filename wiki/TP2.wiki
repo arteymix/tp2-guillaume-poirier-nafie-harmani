@@ -2,12 +2,26 @@
 
 = Introduction =
 
-Add your content here.
+Cette section du wiki présente la documentation complète du travail pratique 2 par Guillaume Poirier-Morency et Nafie Hamrani.
 
+Toutes les classes Java ont leurs équivalent en page de documentation wiki accompagné de jeux d'essai et une auto-évaluation.
 
 = Details =
 
 Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * []
+  * [GameEvent]
+  * [ImageBank]
+  * 
+  * [Canon]
+  * [GameEvent]
+  * [ImageBank]
+  * 
+  * [Canon]
+  * [GameEvent]
+  * [ImageBank]
+  * 
+  * [Canon]
+  * [GameEvent]
+  * [ImageBank]
+  * 

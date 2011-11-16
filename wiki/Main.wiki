@@ -4,14 +4,11 @@
 
 Add your content here.
 
-
-= Sommaire =
-
-== Variables ==
+= Variables =
 
   * imageBank
   * latency
-    Jeu d'essai sur latency
+    Jeu d'essai sur latency...
   * tempsDuRendu
   * isRunning
   * isPaused

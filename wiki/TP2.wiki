@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Présentation de TP2.
 
 = Introduction =
 
@@ -8,20 +8,25 @@ Toutes les classes Java ont leurs équivalent en page de documentation wiki acco
 
 = Details =
 
-Add your content here.  Format your content with:
-  * []
+Package content :
+  * [KeySetting]
   * [GameEvent]
   * [ImageBank]
-  * 
+Package graphique :
   * [Canon]
   * [GameEvent]
-  * [ImageBank]
-  * 
-  * [Canon]
-  * [GameEvent]
-  * [ImageBank]
-  * 
-  * [Canon]
-  * [GameEvent]
-  * [ImageBank]
-  * 
+  * [InterfaceGraphique]
+  * [MainCanvas]
+  * [Ovni]
+  * [Projectile]
+  * [ProjectileEnnemi]
+Package main :
+  * [Exemples]
+  * [Main]
+Package util :
+  * [Collisionable]
+  * [Dessinable]
+  * [KeyBoardListener]
+  * [Dessinable]
+  * [SoundManager]
+  * [Vecteur]

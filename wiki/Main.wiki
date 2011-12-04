@@ -1,20 +1,12 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+== Introduction ==
 
 Add your content here.
 
-= Variables =
+== Variables ==
 
-== imageBank ==
+= showHighscores =
 
-== latency ==
-
-|| stuff || stuff|| ||
-|| || fgibhfg||
-
-
-  * tempsDuRendu
-  * isRunning
-  * isPaused
-  * tp2
+= showHelp =
+= isRunning =

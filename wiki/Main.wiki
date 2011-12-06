@@ -18,6 +18,8 @@ Liste de composantes [Dessinable]
 
 === highscore ===
 
+Objet de [Highscores]
+
 === imageBank ===
 
 === interfaceGraphique ===

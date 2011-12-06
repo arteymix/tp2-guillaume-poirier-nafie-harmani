@@ -6,7 +6,7 @@ Add your content here.
 
 == Variables ==
 
-= showHighscores =
+=== showHighscores ===
 
-= showHelp =
-= isRunning =
+=== showHelp ===
+=== isRunning ===

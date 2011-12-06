@@ -10,11 +10,11 @@ Add your content here.
 
 === canon1 & canon2 ===
 
-Objets de [Canon]
+Objets de [Canon].
 
 === composantesDessinables ===
 
-Liste de composantes [Dessinable]
+Liste de composantes [Dessinable].
 
 === highscore ===
 
@@ -26,7 +26,7 @@ Objet [ImageBank]
 
 === interfaceGraphique ===
 
-Objet [InterfaceGraphique]
+Objet [InterfaceGraphique].
 
 === isDebugEnabled ===
 
@@ -56,6 +56,12 @@ Objet [InterfaceGraphique]
 
 || true || ||
 || false || ||
+
+=== points ===
+
+=== rendu ===
+
+Thread pour le rendu graphique.
 
 === showHighscores ===
 

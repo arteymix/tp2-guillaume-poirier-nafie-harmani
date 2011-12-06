@@ -2,70 +2,70 @@
 
 = Variables =
 
-=== alienAuSol ===
+== alienAuSol ==
 
-=== canon1 & canon2 ===
+== canon1 & canon2 ==
 
 Objets de [Canon].
 
-=== composantesDessinables ===
+== composantesDessinables ==
 
 Liste de composantes [Dessinable].
 
-=== highscore ===
+== highscore ==
 
 Objet de [Highscores]
 
-=== imageBank ===
+== imageBank ==
 
 Objet [ImageBank]
 
-=== interfaceGraphique ===
+== interfaceGraphique ==
 
 Objet [InterfaceGraphique].
 
-=== isDebugEnabled ===
+== isDebugEnabled ==
 
 || true || ||
 || false || ||
 
-=== isGameOver ===
+== isGameOver ==
 
 || true || ||
 || false || ||
 
-=== isPaused ===
+== isPaused ==
 
 || true || ||
 || false || ||
 
-=== isRunning ===
+== isRunning ==
 
 || true || ||
 || false || ||
 
-=== latency ===
+== latency ==
 
-=== level ===
+== level ==
 
-=== paintDone ===
+== paintDone ==
 
 || true || ||
 || false || ||
 
-=== points ===
+== points ==
 
-=== rendu ===
+== rendu ==
 
 Thread pour le rendu graphique.
 
-=== showHighscores ===
+== showHighscores ==
 
 || true || ||
 || false || ||
 
-=== tempsDuRendu ===
+== tempsDuRendu ==
 
-=== tentaculesKilled ===
+== tentaculesKilled ==
 
-=== timerSeconds ===
+== timerSeconds ==

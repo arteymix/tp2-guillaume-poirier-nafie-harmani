@@ -10,6 +10,8 @@ Add your content here.
 
 === canon1 & canon2 ===
 
+Objets de [Canon]
+
 === composantesDessinables ===
 
 Liste de composantes [Dessinable]

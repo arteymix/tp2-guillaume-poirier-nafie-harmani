@@ -6,7 +6,36 @@ Add your content here.
 
 == Variables ==
 
+=== alienAuSol ===
+
+=== canon1 & canon2 ===
+
+=== composantesDessinables ===
+
+=== highscore ===
+
+=== imageBank ===
+
+=== interfaceGraphique ===
+
+=== isDebugEnabled ===
+
+=== isGameOver ===
+
+=== isPaused ===
+
+=== isRunning ===
+
+=== latency ===
+
+=== level ===
+
+=== paintDone ===
+
 === showHighscores ===
 
-=== showHelp ===
-=== isRunning ===
+=== tempsDuRendu ===
+
+=== tentaculesKilled ===
+
+=== timerSeconds ===

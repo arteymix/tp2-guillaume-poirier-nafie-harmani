@@ -22,7 +22,11 @@ Objet de [Highscores]
 
 === imageBank ===
 
+Objet [ImageBank]
+
 === interfaceGraphique ===
+
+Objet [InterfaceGraphique]
 
 === isDebugEnabled ===
 

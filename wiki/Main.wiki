@@ -12,6 +12,8 @@ Add your content here.
 
 === composantesDessinables ===
 
+ArrayList de composantes [Dessinable]
+
 === highscore ===
 
 === imageBank ===

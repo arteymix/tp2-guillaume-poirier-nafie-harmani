@@ -30,11 +30,23 @@ Objet [InterfaceGraphique]
 
 === isDebugEnabled ===
 
+|| true || ||
+|| false || ||
+
 === isGameOver ===
+
+|| true || ||
+|| false || ||
 
 === isPaused ===
 
+|| true || ||
+|| false || ||
+
 === isRunning ===
+
+|| true || ||
+|| false || ||
 
 === latency ===
 
@@ -42,7 +54,13 @@ Objet [InterfaceGraphique]
 
 === paintDone ===
 
+|| true || ||
+|| false || ||
+
 === showHighscores ===
+
+|| true || ||
+|| false || ||
 
 === tempsDuRendu ===
 

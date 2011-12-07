@@ -12,14 +12,25 @@ Retour vers [TP2]
 
 === position ===
 
+Objet [Vecteur].
+
 === positionA ===
+Objet [Vecteur].
 
 === positionB ===
+Objet [Vecteur].
 
 === positionC ===
+Objet [Vecteur].
 
 === positionD ===
+Objet [Vecteur].
 
 === tetha ===
+|| || ||
+|| || ||
 
 === vie ===
+|| Négatif || ||
+|| 0 || ||
+|| Positif || ||

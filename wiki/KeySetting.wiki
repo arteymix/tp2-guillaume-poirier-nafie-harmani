@@ -2,12 +2,38 @@
 
 = Introduction =
 
-Add your content here.
+Toutes ces variables sont finales, aucun jeu de test ne peut être effectué dans ce contexte.
+
+= Variables =
+
+== CANON_1_SHOOT == 
+
+== CANON_1_LEFT == 
+
+== CANON_1_RIGHT == 
+
+== CANON_1_AIM_LEFT == 
+
+== CANON_1_AIM_RIGHT == 
+
+== CANON_2_SHOOT == 
+
+== CANON_2_LEFT == 
+
+== CANON_2_RIGHT == 
+
+== CANON_2_AIM_LEFT == 
+
+== CANON_2_AIM_RIGHT ==
+
+== SHOW_HIGHSCORES == 
+
+== PAUSE ==
+
+== QUIT == 
+
+== SHOW_DEBUG == 
 
 
-= Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== CANON_2_AIM_RIGHT ==

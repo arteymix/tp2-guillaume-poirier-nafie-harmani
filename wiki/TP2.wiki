@@ -37,3 +37,5 @@ Package util :
   * [Serialization]
   * [Traductions]
   * [Vecteur]
+Énumérations (font indirectement partis d'un package) :
+  * [Activity]

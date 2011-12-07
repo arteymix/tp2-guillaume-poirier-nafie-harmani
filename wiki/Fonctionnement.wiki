@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-Retourner vers [TP2]
+Retour vers [TP2]
 
 = Introduction =
 

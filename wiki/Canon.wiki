@@ -1,13 +1,23 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= Variables =
 
-Add your content here.
+=== VIE_INIT_CANON ===
 
+=== isCanon2ValidTarget ===
 
-= Details =
+=== peutTirer ===
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+=== position ===
+
+=== positionA ===
+
+=== positionB ===
+
+=== positionC ===
+
+=== positionD ===
+
+=== tetha ===
+
+=== vie ===

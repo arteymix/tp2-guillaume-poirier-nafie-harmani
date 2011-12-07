@@ -32,6 +32,6 @@ Toutes ces variables sont finales, aucun jeu de test ne peut être effectué dan
 
 === PAUSE ===
 
-== QUIT == 
+=== QUIT ===
 
 === SHOW_DEBUG === 

@@ -2,12 +2,46 @@
 
 = Introduction =
 
-Add your content here.
+Les variables ici contiennent les images. Les jeux de tests ne peuvent pas être effectués, car le nombre de possibilités des déjà restreint et les exeptions improbables.
 
+= Variables =
 
-= Details =
+=== ship1 ===
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+=== ship2 ===
+
+=== subcanon1 ===
+
+=== subcanon2 ===
+
+=== decorFlottant ===
+
+=== background ===
+
+=== ennemi ===
+
+=== ennemiSupersonic ===
+
+=== ennemiOr ===
+
+=== ennemiSupersonicOr ===
+
+=== boss ===
+
+=== projectile ===
+
+=== projectileEnnemi ===
+
+=== projectileEnnemiOr ===
+
+=== projectileEnnemiSupersonic ===
+
+=== projectileEnnemiSupersonicOr ===
+
+=== projectileBoss ===
+
+=== explosion ===
+
+=== powerup ===
+
+=== icon ===

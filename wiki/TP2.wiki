@@ -12,22 +12,28 @@ Une auto-évaluation est aussi disponible ici : [AutoEvaluation].
 
 Package content :
   * [KeySetting]
-  * [GameEvent]
+Package content.images :
   * [ImageBank]
-Package graphique :
+Package graphique.component :
   * [Canon]
-  * [GameEvent]
-  * [InterfaceGraphique]
-  * [MainCanvas]
   * [Ovni]
   * [Projectile]
   * [ProjectileEnnemi]
+Package graphique.event
+  * [DecorFlottant]
+  * [Explosion]
+  * [PointsObtenus]
+  * [PowerUp]
+Package graphique.window
+  * [InterfaceGraphique]
+  * [MainCanvas]
 Package main :
-  * [Exemples]
   * [Main]
 Package util :
   * [Collisionable]
   * [Dessinable]
+  * [Highscores]
   * [KeyBoardListener]
-  * [SoundManager]
+  * [Serialization]
+  * [Traductions]
   * [Vecteur]

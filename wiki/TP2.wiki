@@ -17,6 +17,7 @@ Package content :
 Package content.images :
   * [ImageBank]
 Package content.images.stage$x $x in [1-4] :
+  * Des images de type .gif et .png pour l'esthétique du programme.
 Package graphique.component :
   * [Canon]
   * [Ovni]

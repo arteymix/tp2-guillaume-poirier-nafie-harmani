@@ -8,8 +8,6 @@ Package content :
   * [KeySetting]
 Package content.images :
   * [ImageBank]
-Package content.images.stage :
-  * Des images de type .gif et .png pour l'esthétique du programme.
 Package graphique.component :
   * [Canon]
   * [Ovni]

@@ -3,7 +3,7 @@
 
 =Sommaire =
 
-Contenu :
+----
   *
 Package content :
   * [KeySetting]

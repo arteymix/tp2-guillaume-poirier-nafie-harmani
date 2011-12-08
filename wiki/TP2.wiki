@@ -8,7 +8,7 @@ Toutes les classes Java ont leurs équivalent en page de documentation wiki acco
 
 Une auto-évaluation est aussi disponible ici : [AutoEvaluation].
 
-Autrement, vous seriez probablement intéressé de comprendre le [Fonctionnement] du logiciel.
+Autrement, vous serez probablement intéressé de comprendre le [Fonctionnement] du logiciel.
 
 = Sommaire =
 

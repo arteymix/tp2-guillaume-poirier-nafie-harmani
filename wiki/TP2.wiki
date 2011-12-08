@@ -10,4 +10,4 @@ Une [AutoEvaluation auto-évaluation] est aussi disponible.
 
 Autrement, vous serez probablement intéressé de comprendre le [Fonctionnement fonctionnement] du logiciel.
 
-Dans la section [http://code.google.com/p/tp2-guillaume-poirier-nafie-harmani/downloads/list Downloads], vous trouverez un fichier compressé contenant la documentation, l'archive jar du logiciel et les fichiers de sources. Les sources sont aussi disponibles en read-only sur le [http://code.google.com/p/tp2-guillaume-poirier-nafie-harmani/source/browse/ dépôt subversion].
+Dans la section [http://code.google.com/p/tp2-guillaume-poirier-nafie-harmani/downloads/list Downloads], vous trouverez un fichier compressé contenant la documentation, l'archive jar du logiciel et les fichiers de sources. Les sources sont aussi disponibles en read-only sur le [http://code.google.com/p/tp2-guillaume-poirier-nafie-harmani/source/browse/ dépôt subversion]. Elles sont situés sous /svn/branches/main/.

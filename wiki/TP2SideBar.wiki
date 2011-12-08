@@ -1,7 +1,7 @@
 #summary One-sentence summary of this page.
 
 
-=Sommaire =
+=Sommaire = :
 
   *
 

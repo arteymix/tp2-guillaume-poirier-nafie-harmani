@@ -4,7 +4,8 @@ Retour vers [TP2]
 
 = Introduction =
 
-Classe pour le Canon. Les canons sont instanciés au début du programme et non à la volée. Il y a deux canons possibles.
+Les canons sont instanciés au début du programme et non à la volée. 
+Il y a deux canons possibles.
 
 = Variables =
 

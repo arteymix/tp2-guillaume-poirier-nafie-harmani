@@ -1,5 +1,7 @@
 #summary One-sentence summary of this page.
 
+=Navigation=
+
 Vous pouvez naviguer dans les différentes pages en lien avec le [TP2] à partir de cette barre de navigation.
   *
 Package content :

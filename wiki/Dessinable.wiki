@@ -1,6 +1,5 @@
 #summary One-sentence summary of this page.
-
-Retour vers [TP2]
+#sidebar TP2
 
 = Variables =
 

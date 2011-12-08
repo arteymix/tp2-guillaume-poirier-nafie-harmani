@@ -1,9 +1,6 @@
 #summary One-sentence summary of this page.
 
-
-=Sommaire =
-
-----
+*Contenu :*
   *
 Package content :
   * [KeySetting]

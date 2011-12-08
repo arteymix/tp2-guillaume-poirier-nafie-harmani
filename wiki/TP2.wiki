@@ -10,6 +10,8 @@ Une auto-évaluation est aussi disponible ici : [AutoEvaluation].
 
 Autrement, vous serez probablement intéressé de comprendre le [Fonctionnement] du logiciel.
 
+Dans la section Downloads, vous trouverez un fichier compressé contenant la documentation ainsi que l'archive jar du logiciel. Les sources sont disponibles en read-only sur le dépôt.
+
 = Sommaire =
 
 Package content :

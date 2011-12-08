@@ -6,8 +6,8 @@ Cette section du wiki présente la documentation complète du travail pratique 2
 
 Toutes les classes Java ont leurs équivalent en page de documentation wiki accompagné de jeux d'essai. Ces pages ne présentent pas la documentation reliée à chaque variable, mais que des jeux d'essai pour celles-ci. Vous trouverez une documentation plus spécifique aux variables dans la Javadoc.
 
-Une auto-évaluation est aussi disponible ici : [AutoEvaluation].
+Une [AutoEvaluation auto-évaluation] est aussi disponible.
 
-Autrement, vous serez probablement intéressé de comprendre le [Fonctionnement] du logiciel.
+Autrement, vous serez probablement intéressé de comprendre le [Fonctionnement fonctionnement] du logiciel.
 
 Dans la section Downloads, vous trouverez un fichier compressé contenant la documentation ainsi que l'archive jar du logiciel. Les sources sont disponibles en read-only sur le dépôt.

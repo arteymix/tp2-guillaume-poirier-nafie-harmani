@@ -3,8 +3,8 @@
 
 =Sommaire =
 
+  *
 
-*
 Package content :
   * [KeySetting]
 Package content.images :

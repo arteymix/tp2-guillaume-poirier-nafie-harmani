@@ -12,4 +12,4 @@ Tout bon programme prends du temps à faire et parfaire. Il faut le développer,
 == Ce qu'on aurait aimé faire ==
 
   * Terminer le artwork du niveau bonus
-  * 
+  * Gérer les collisions dans un thread indépendant du rendu afin d'optimiser les performances

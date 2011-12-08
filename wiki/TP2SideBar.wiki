@@ -5,8 +5,7 @@
 
 Contenu :
 
-Package content :
-  * [KeySetting]
+Package content :  * [KeySetting]
 Package content.images :
   * [ImageBank]
 Package content.images.stage :

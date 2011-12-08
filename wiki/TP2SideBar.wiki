@@ -1,0 +1,36 @@
+#summary One-sentence summary of this page.
+
+
+  * =Sommaire =
+
+Package content :
+  * [KeySetting]
+Package content.images :
+  * [ImageBank]
+Package content.images.stage :
+  * Des images de type .gif et .png pour l'esthétique du programme.
+Package graphique.component :
+  * [Canon]
+  * [Ovni]
+  * [Projectile]
+  * [ProjectileEnnemi]
+Package graphique.event
+  * [DecorFlottant]
+  * [Explosion]
+  * [PointsObtenus]
+  * [PowerUp]
+Package graphique.window
+  * [InterfaceGraphique]
+  * [MainCanvas]
+Package main :
+  * [Main]
+Package util :
+  * [Collisionable]
+  * [Dessinable]
+  * [Highscores]
+  * [KeyBoardListener]
+  * [Serialization]
+  * [Traductions]
+  * [Vecteur]
+Énumérations (font indirectement partis d'un package) :
+  * [Activity]

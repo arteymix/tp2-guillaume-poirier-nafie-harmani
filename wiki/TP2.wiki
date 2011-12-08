@@ -16,6 +16,7 @@ Package content :
   * [KeySetting]
 Package content.images :
   * [ImageBank]
+Package content.images.stage$x $x in [1-4] :
 Package graphique.component :
   * [Canon]
   * [Ovni]

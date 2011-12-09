@@ -1,3 +1,9 @@
 #summary One-sentence summary of this page.
 
+= Introduction =
+
 = Variables =
+
+=== xObtained ===
+
+Où x vaut le nom du trophée.

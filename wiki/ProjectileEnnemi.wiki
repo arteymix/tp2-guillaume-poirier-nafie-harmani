@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Tentacules mauves, boules électriques et autres
 
 
 = Introduction =
@@ -6,9 +6,23 @@
 Add your content here.
 
 
-= Details =
+= Variables =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+=== ID ===
+
+=== POINTS ===
+
+=== PROJECTILE_X ===
+
+=== dommage ===
+
+=== isInvincible ===
+
+|| true || ||
+|| false || ||
+
+=== position ===
+
+Objet de type [Vecteur].
+
+=== rectangle ===

@@ -1,3 +1,5 @@
 #summary One-sentence summary of this page.
 
-= Variables =
+= Introduction =
+
+Que des méthode pour sérialiser et désérialiser ici, pas besoin de jeux de tests.

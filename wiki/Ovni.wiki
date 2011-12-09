@@ -4,4 +4,39 @@
 
 = Variables =
 
+=== ENNEMI_X & ENNEMI_X_POINTS ===
 
+
+=== ID ===
+
+=== PROBABILITE_APPARITION_OVNIS ===
+
+=== VIE_INIT ===
+
+=== boss1Killed ===
+
+=== boss2Killed ===
+
+=== boss3Killed ===
+
+=== isBoss ===
+
+=== isOr ===
+
+=== position ===
+
+Objet [Vecteur].
+
+=== random ===
+
+=== rectangle ===
+
+=== shootRate ===
+
+=== vie ===
+
+=== vitesseX ===
+
+=== xDirection ===
+
+=== yDirection ===

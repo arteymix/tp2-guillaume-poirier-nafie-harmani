@@ -8,6 +8,7 @@ Tout bon programme prends du temps à faire et parfaire. Il faut le développer,
 
   * Un algorithme de tri pour trier les meilleurs scores
   * Une documentation propre, lisible et fonctionnelle
+  * Un système de traduction intégré et fonctionnel
 
 == Ce qu'on aurait aimé faire ==
 

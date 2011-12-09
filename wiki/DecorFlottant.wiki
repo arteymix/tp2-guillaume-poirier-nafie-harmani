@@ -1,5 +1,7 @@
 #summary Nuages, sous-marins et comètes
 
+= Introduction =
+
 = Variables =
 
 === PROBABILITE_APPARITION_OBJET_FLOTTANT ===

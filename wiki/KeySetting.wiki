@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Toutes ces variables sont finales, aucun jeu de test ne peut être effectué dans ce contexte. À ces variables sont associés des clés du clavier afin de centraliser la configuration des touches.
+*Toutes ces variables sont finales, aucun jeu de test ne peut être effectué* dans ce contexte. À ces variables sont associés des clés du clavier afin de centraliser la configuration des touches.
 
 = Variables =
 

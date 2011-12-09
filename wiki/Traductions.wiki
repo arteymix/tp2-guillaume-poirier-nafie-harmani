@@ -1,3 +1,18 @@
 #summary One-sentence summary of this page.
 
 = Variables =
+
+=== fr ===
+
+=== en ===
+
+=== isInitAlready ===
+
+|| true || ||
+|| false || ||
+
+=== langue ===
+
+|| fr || ||
+|| en || ||
+|| Autres valeurs ||

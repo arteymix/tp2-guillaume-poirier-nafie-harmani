@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-=== Introduction ===
+= Introduction =
 
 Pour alléger la lecture, j'omet les éléments d'interface (JMenu, JButton, etc...)
 

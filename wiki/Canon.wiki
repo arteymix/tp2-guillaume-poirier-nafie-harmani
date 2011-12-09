@@ -9,7 +9,7 @@ Il y a deux canons possibles.
 
 === ANGLE_INCREMENT_CANON ===
 
-=== CANON_1_ID ===
+=== CANON_1_ID & CANON_2_ID ===
 
 === VIE_INIT_CANON ===
 

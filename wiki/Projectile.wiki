@@ -1,6 +1,7 @@
 #summary One-sentence summary of this page.
 
 = Introduction =
+Fichier de classe pour un projectile.
 
 = Variables =
 

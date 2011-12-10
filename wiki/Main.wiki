@@ -78,11 +78,7 @@ Thread pour le rendu graphique, il est de type [InterfaceGraphique]
 || false || Fonctionnement normal, les highscores ne sont pas affichés ||
 
 === tempsDuRendu ===
-|| latency || ||
-|| > latency || ||
-|| < latency || ||
-|| 0 || ||
-|| < 0 || ||
+Le jeu fonctionne peu importe la valeur qu'on met ici. Elle affecte le premier frame, mais elle est réinitialisée à chaque frame.
 
 === tentaculesKilled ==
 L'utilisateur commence avec la valeur donnée en tentacules tués.

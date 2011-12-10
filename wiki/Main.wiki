@@ -50,10 +50,10 @@ Objet [InterfaceGraphique].
 || false || Les threads sont tous arrêté, le rendu fige ||
 
 === latency ===
-|| Négatif || ||
-|| 0 || || 
-|| 15 || ||
-|| >15 || || 
+|| Négatif || Les canons bougent d'un bord de la carte à un autre instantanément et le jeu plante à la fermeture parce que le temps d'attente d'un Thread est négatif! ||
+|| 0 || Les canons bougent d'un bord de la carte à un autre instantanément! || 
+|| 15 || Fonctionnement normal ||
+|| >15 || Le jeu fonctionne au ralentit plus cette valeur est grande || 
 
 === level ===
 || 0 || ||

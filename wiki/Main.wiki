@@ -42,8 +42,8 @@ Objet [InterfaceGraphique].
 
 === isPaused ===
 
-|| true || ||
-|| false || ||
+|| true || Ne change rien au démarrage, mais sa valeur n'est pas affectée dans Main ||
+|| false || Valeur par défaut, le programme fonctionne normalement ||
 
 === isRunning ===
 

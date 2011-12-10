@@ -43,6 +43,7 @@ Objet [Vecteur].
 || Math.PI || La tête de canon est en bonne position, c'est sa position initiale ||
 || Math.PI / 2 || La tête de canon est à 90 degrés, comme voulu ||
 Cette valeur est prédéfinie de toute manière...
+
 === vie ===
 || Négatif || ||
 || 0 || ||

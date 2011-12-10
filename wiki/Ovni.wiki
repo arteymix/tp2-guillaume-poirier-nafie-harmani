@@ -5,14 +5,12 @@
 = Variables =
 
 === ENNEMI_X & ENNEMI_X_POINTS ===
-
 || Positif || ||
 || 0 || ||
 || Négatif || ||
 
 
 === ID ===
-
 || Valeurs prévues (constantes prédéfinies) || ||
 || Valeurs imprévues || ||
 
@@ -41,7 +39,6 @@
 || false || ||
 
 === position ===
-
 Objet [Vecteur].
 
 === random ===
@@ -49,11 +46,26 @@ Objet [Vecteur].
 === rectangle ===
 
 === shootRate ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === vie ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === vitesseX ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === xDirection ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === yDirection ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||

@@ -18,6 +18,9 @@ Il y a deux canons possibles.
 
 === isCanon2ValidTarget ===
 
+|| true || Le canon 2 apparaît en début de partie ||
+|| false || Le jeu fonctionne normalement avec un seul canon en début de partie ||
+
 === peutTirer ===
 || true || Le canon peut tirer ||
 || false || Le canon est incapable de tirer ||

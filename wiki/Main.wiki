@@ -6,10 +6,11 @@ Classe principale du programme.
 = Variables =
 
 === alienAuSol ===
-|| Négatif || ||
-|| 0 || ||
-|| 4 || ||
-|| > 4 || ||
+|| Négatif || Le jeu fonctionne normalement... ||
+|| 0 || Valeur par défaut, fonctionne normalement ||
+|| 0 > x > 4 || Affiche x aliens dans le haut de l'écran ||
+|| 4 || Affiche x aliens dans le haut de l'écran, mais la partie continue... ||
+|| > 4 || Affiche les aliens et la partie continue ||
 
 === canon1 & canon2 ===
 

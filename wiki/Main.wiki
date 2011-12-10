@@ -55,9 +55,10 @@ Objet [InterfaceGraphique].
 || >15 || Le jeu fonctionne au ralentit plus cette valeur est grande || 
 
 === level ===
-|| 0 || ||
-|| Valeurs prévues (1,2,3,4) || ||
-|| > 4 || ||
+|| Négatif || Les tirs ennemis donnent des points de vie :P ||
+|| 0 || Les tirs ennemis font aucuns dommages ||
+|| Valeurs prévues (1,2,3,4) || Le jeu fonctionne normalement ||
+|| > 4 || Les ennemis causent x fois les dommages ||
 
 === paintDone ===
 || true || Ne change rien, mais on suppose que le premier frame ne subit pas d'attente ||

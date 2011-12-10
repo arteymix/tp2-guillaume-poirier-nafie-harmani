@@ -85,12 +85,11 @@ Thread pour le rendu graphique, il est de type [InterfaceGraphique]
 || < 0 || ||
 
 === tentaculesKilled ==
-|| Négatif || ||
-|| 0 || ||
-|| Positif || ||
+L'utilisateur commence avec la valeur donnée en tentacules tués.
 
 === timerSeconds ===
-|| Négatif || ||
-|| 0 || ||
-|| 60000 || ||
-|| > 60000 || ||
+|| Négatif || Le temps avant d'affronter le boss augmente plus la valeur est grande négativement ||
+|| 0 || Valeur normale ||
+|| 0 > x > 60000 || Le jeu commence à x ms ||
+|| 60000 || Le boss apparaît ||
+|| > 60000 || Le boss apparaît ||

@@ -5,9 +5,9 @@
 Vous pouvez naviguer dans les différentes pages en lien avec le [TP2] à partir de cette barre de navigation.
   *
 Package content :
-  * [KeySetting] (pas de jeux de test)
+  * [KeySetting] *(pas de jeux de test)*
 Package content.images :
-  * [ImageBank] (pas de jeux de test)
+  * [ImageBank] *(pas de jeux de test)*
 Package graphique.component :
   * [Canon]
   * [Ovni]
@@ -19,17 +19,17 @@ Package graphique.event
   * [PointsObtenus]
   * [PowerUp]
 Package graphique.window
-  * [InterfaceGraphique] (pas de jeux de test)
-  * [MainCanvas] (pas de jeux de test)
+  * [InterfaceGraphique] *(pas de jeux de test)*
+  * [MainCanvas] *(pas de jeux de test)*
 Package main :
   * [Main]
 Package util :
-  * [Collisionable] (pas de jeux de test)
-  * [Dessinable] (pas de jeux de test)
-  * [Highscores] (pas de jeux de test)
-  * [KeyBoardListener] (pas de jeux de test)
-  * [Serialization] (pas de jeux de test)
-  * [Traductions] (pas de jeux de test)
-  * [Vecteur] (pas de jeux de test)
+  * [Collisionable] *(pas de jeux de test)*
+  * [Dessinable] *(pas de jeux de test)*
+  * [Highscores] *(pas de jeux de test)*
+  * [KeyBoardListener] *(pas de jeux de test)*
+  * [Serialization] *(pas de jeux de test)*
+  * [Traductions] *(pas de jeux de test)*
+  * [Vecteur] *(pas de jeux de test)*
 Énumérations (font indirectement partis d'un package) :
-  * [Activity] (pas de jeux de test)
+  * [Activity] *(pas de jeux de test)*

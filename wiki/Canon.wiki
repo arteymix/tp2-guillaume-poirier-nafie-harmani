@@ -19,6 +19,8 @@ Il y a deux canons possibles.
 === isCanon2ValidTarget ===
 
 === peutTirer ===
+|| true || Le canon peut tirer ||
+|| false || Le canon est incapable de tirer ||
 
 === position ===
 

@@ -1,5 +1,5 @@
 #summary Présentation de TP2.
-[TP2 Accueil]
+
 = Introduction =
 
 Cette section du wiki présente la documentation complète du travail pratique 2 par Guillaume Poirier-Morency et Nafie Hamrani.

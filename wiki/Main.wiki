@@ -45,7 +45,6 @@ Objet [InterfaceGraphique].
 || false || Valeur par défaut, le programme fonctionne normalement ||
 
 === isRunning ===
-
 || true || Valeur normale, tous les threads sont en fonction ||
 || false || Les threads sont tous arrêté, le rendu fige ||
 
@@ -65,9 +64,9 @@ Objet [InterfaceGraphique].
 || false || Valeur par défaut, le programme fonctionne normalement ||
 
 === points ===
-|| Négatif || ||
-|| 0 || ||
-|| Positif || ||
+|| Négatif || L'utilisateur commence avec des points négatifs ||
+|| 0 || L'utilisateur commence avec 0 points ||
+|| Positif || L'utilisateur commence avec les points donnés ||
 
 === rendu ===
 
@@ -92,4 +91,5 @@ Thread pour le rendu graphique, il est de type [InterfaceGraphique]
 === timerSeconds ===
 || Négatif || ||
 || 0 || ||
-|| Positif || ||
+|| 60000 || ||
+|| > 60000 || ||

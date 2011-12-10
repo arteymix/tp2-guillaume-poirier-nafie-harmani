@@ -24,12 +24,12 @@ Package graphique.window
 Package main :
   * [Main]
 Package util :
-  * [Collisionable]
-  * [Dessinable]
-  * [Highscores]
-  * [KeyBoardListener]
-  * [Serialization]
-  * [Traductions]
-  * [Vecteur]
+  * [Collisionable] (pas de jeux de test)
+  * [Dessinable] (pas de jeux de test)
+  * [Highscores] (pas de jeux de test)
+  * [KeyBoardListener] (pas de jeux de test)
+  * [Serialization] (pas de jeux de test)
+  * [Traductions] (pas de jeux de test)
+  * [Vecteur] (pas de jeux de test)
 Énumérations (font indirectement partis d'un package) :
   * [Activity] (pas de jeux de test)

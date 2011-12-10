@@ -3,6 +3,7 @@
 = Introduction =
 
 = Variables =
+Classe contenant l'objet qui affiche les points que l'utilisateur obtient.
 
 === delay ===
 || Négatif || ||

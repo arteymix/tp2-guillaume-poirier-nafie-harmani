@@ -1,6 +1,7 @@
 #summary One-sentence summary of this page.
 
 = Introduction =
+Objet dessinable pour les powerups.
 
 = Variables =
 

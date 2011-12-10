@@ -46,5 +46,6 @@ Objet [Vecteur].
 === vie ===
 || Négatif || Le canon apparaît, mais à la moindre touche, la partie est terminée ||
 || 0 || Le canon apparaît, mais la partie se termine à la première collision ||
+|| 0 > x > VIE_INIT_CANON || Le canon commence avec des vies en moins ||
 || VIE_INIT_CANON || Les vies sont définies comme voulu ||
-|| Positif || ||
+|| > VIE_INIT_CANON || La barre de vie est dessinés à l'extérieur du jeu ||

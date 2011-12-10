@@ -13,6 +13,10 @@ Il y a deux canons possibles.
 
 === ANGLE_INCREMENT_CANON ===
 
+|| 0 || La tête de canon ne bouge pas ||
+|| Négatif || La tête de canon bouge de façon inverse ||
+|| Positif || La tête de canon bouge normalement ||
+
 
 === CANON_1_ID & CANON_2_ID ===
 

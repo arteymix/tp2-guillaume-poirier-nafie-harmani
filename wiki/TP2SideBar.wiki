@@ -20,7 +20,7 @@ Package graphique.event
   * [PowerUp]
 Package graphique.window
   * [InterfaceGraphique] (pas de jeux de test)
-  * [MainCanvas]
+  * [MainCanvas] (pas de jeux de test)
 Package main :
   * [Main]
 Package util :

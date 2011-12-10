@@ -33,14 +33,12 @@ Objet [ImageBank]
 Objet [InterfaceGraphique].
 
 === isDebugEnabled ===
-
-|| true || ||
-|| false || ||
+|| true || Le jeu démarre en mode de débogage ||
+|| false || Le jeu démarre avec mode normal ||
 
 === isGameOver ===
-
-|| true || ||
-|| false || ||
+|| true || Valeur normale, fonctionne bien ||
+|| false || Fonctionne toujours bien, ce booléen prend son sens quand la partie est réellement terminée ||
 
 === isPaused ===
 

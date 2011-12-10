@@ -24,8 +24,12 @@
 === boss3Killed ===
 
 === isBoss ===
+|| true || ||
+|| false || ||
 
 === isOr ===
+|| true || ||
+|| false || ||
 
 === position ===
 

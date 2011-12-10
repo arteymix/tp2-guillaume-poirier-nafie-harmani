@@ -1,6 +1,7 @@
 #summary One-sentence summary of this page.
 
 = Introduction =
+Classe pour le système de traductions.
 
 = Variables =
 

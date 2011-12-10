@@ -19,7 +19,7 @@ Package graphique.event
   * [PointsObtenus]
   * [PowerUp]
 Package graphique.window
-  * [InterfaceGraphique]
+  * [InterfaceGraphique] (pas de jeux de test)
   * [MainCanvas]
 Package main :
   * [Main]

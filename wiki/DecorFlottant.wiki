@@ -3,6 +3,7 @@
 = Introduction =
 
 = Variables =
+Classe pour les objets Dessinable comme les nuages et les bancs de poissons.
 
 === PROBABILITE_APPARITION_OBJET_FLOTTANT ===
 || Positif || ||

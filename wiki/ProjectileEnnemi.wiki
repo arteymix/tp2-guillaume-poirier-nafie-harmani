@@ -2,9 +2,7 @@
 
 
 = Introduction =
-
-Add your content here.
-
+Fichier de classe pour un projectile ennemi.
 
 = Variables =
 

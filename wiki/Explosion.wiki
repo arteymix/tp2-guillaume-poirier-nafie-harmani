@@ -1,6 +1,7 @@
 #summary One-sentence summary of this page.
 
 = Introduction =
+Objet pour générer une explosion dans le jeu. Devrait éventuellement permettre des explosions de toutes tailles!
 
 = Variables =
 

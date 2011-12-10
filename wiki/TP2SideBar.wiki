@@ -5,9 +5,9 @@
 Vous pouvez naviguer dans les différentes pages en lien avec le [TP2] à partir de cette barre de navigation.
   *
 Package content :
-  * [KeySetting]
+  * [KeySetting] (pas de jeux de test)
 Package content.images :
-  * [ImageBank]
+  * [ImageBank] (pas de jeux de test)
 Package graphique.component :
   * [Canon]
   * [Ovni]
@@ -32,4 +32,4 @@ Package util :
   * [Traductions]
   * [Vecteur]
 Énumérations (font indirectement partis d'un package) :
-  * [Activity]
+  * [Activity] (pas de jeux de test)

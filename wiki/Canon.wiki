@@ -8,6 +8,9 @@ Il y a deux canons possibles.
 = Variables =
 
 === ANGLE_INCREMENT_CANON ===
+|| > 0 || Le canon se déplace normalement ||
+|| 0 || Le canon ne peut pas se déplacer ||
+|| < 0 || Les contrôles sont opposés et le canon peut sortir de la carte ||
 
 === CANON_1_ID & CANON_2_ID ===
 
@@ -15,6 +18,8 @@ Il y a deux canons possibles.
 
 
 === VIE_INIT_CANON ===
+
+Voir les jeux de test sur la variable vie, cette valeur y est directement affectée lorsque le constructeur est appelé.
 
 === isCanon2ValidTarget ===
 

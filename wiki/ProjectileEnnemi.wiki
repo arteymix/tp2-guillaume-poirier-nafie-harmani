@@ -9,20 +9,29 @@ Add your content here.
 = Variables =
 
 === ID ===
+|| Valeurs prévues par les constantes || ||
+|| Valeurs imprévues || ||
 
 === POINTS ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === PROJECTILE_X ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === dommage ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === isInvincible ===
-
 || true || ||
 || false || ||
 
 === position ===
-
 Objet de type [Vecteur].
 
 === rectangle ===

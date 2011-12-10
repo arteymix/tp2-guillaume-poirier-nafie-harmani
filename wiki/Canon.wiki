@@ -20,6 +20,8 @@ Il y a deux canons possibles.
 
 === CANON_1_ID & CANON_2_ID ===
 
+Ces variables sont des constantes d'identification, elles peuvent prendre n'importe quelle valeur entière, du moment qu'elles soient différentes l'une de l'autre.
+
 === FAST_SHOT_OBTAINED & POWER_FAST_SHOT_OBTAINED && POWER_SHOT_OBTAINED ===
 
 Ces variables n'ont aucune implication dans le jeu, elles ne servent qu'à l'affichage dans le mode de débogage.

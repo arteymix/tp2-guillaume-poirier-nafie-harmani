@@ -14,8 +14,14 @@
 === ID ===
 
 === PROBABILITE_APPARITION_OVNIS ===
+|| Positif || ||
+|| 0 || ||
+|| Negatif || ||
 
 === VIE_INIT ===
+|| Positif || ||
+|| 0 || ||
+|| Negatif || ||
 
 === boss1Killed ===
 

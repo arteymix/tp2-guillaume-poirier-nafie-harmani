@@ -1,6 +1,7 @@
 #summary One-sentence summary of this page.
 
 = Introduction =
+Classe contenant le canvas principal où les dessins seront effectués. C'est ici que le code principal se trouve, que les collisions sont calculées et tout et tout!
 
 = Variables =
 

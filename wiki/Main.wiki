@@ -6,6 +6,10 @@ Classe principale du programme.
 = Variables =
 
 === alienAuSol ===
+|| Négatif || ||
+|| 0 || ||
+|| 4 || ||
+|| > 4 || ||
 
 === canon1 & canon2 ===
 

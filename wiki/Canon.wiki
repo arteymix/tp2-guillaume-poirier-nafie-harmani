@@ -44,7 +44,7 @@ Objet [Vecteur].
 || Math.PI / 2 || La tête de canon est à 90 degrés, comme voulu ||
 
 === vie ===
-|| Négatif || ||
-|| 0 || ||
+|| Négatif || Le canon apparaît, mais à la moindre touche, la partie est terminée ||
+|| 0 || Le canon apparaît, mais la partie se termine à la première collision ||
 || VIE_INIT_CANON || Les vies sont définies comme voulu ||
 || Positif || ||

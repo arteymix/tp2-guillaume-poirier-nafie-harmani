@@ -41,7 +41,6 @@ Objet [InterfaceGraphique].
 || false || Fonctionne toujours bien, ce booléen prend son sens quand la partie est réellement terminée ||
 
 === isPaused ===
-
 || true || Ne change rien au démarrage, mais sa valeur n'est pas affectée dans Main ||
 || false || Valeur par défaut, le programme fonctionne normalement ||
 
@@ -62,8 +61,8 @@ Objet [InterfaceGraphique].
 || > 4 || ||
 
 === paintDone ===
-|| true || ||
-|| false || ||
+|| true || Ne change rien, mais on suppose que le premier frame ne subit pas d'attente ||
+|| false || Valeur par défaut, le programme fonctionne normalement ||
 
 === points ===
 || Négatif || ||

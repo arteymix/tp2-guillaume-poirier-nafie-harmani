@@ -6,6 +6,10 @@
 
 === ENNEMI_X & ENNEMI_X_POINTS ===
 
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
+
 
 === ID ===
 

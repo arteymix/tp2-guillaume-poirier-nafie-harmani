@@ -5,13 +5,28 @@
 = Variables =
 
 === delay ===
+|| Négatif || ||
+|| 0 || ||
+|| Positif || ||
 
 === font ===
 
 === POINTS ===
+|| Négatif || ||
+|| 0 || ||
+|| Positif || ||
 
 === size ===
+|| Négatif || ||
+|| 0 || ||
+|| Positif || ||
 
 === POSITION_X ===
+|| Négatif || ||
+|| 0 || ||
+|| Positif || ||
 
 === POSITION_Y ===
+|| Négatif || ||
+|| 0 || ||
+|| Positif || ||

@@ -6,11 +6,13 @@ Les canons sont instanciés au début du programme et non à la volée.
 Il y a deux canons possibles.
 
 = Variables =
+=== MOVEMENT_INCREMENT_CANON ===
 
-=== ANGLE_INCREMENT_CANON ===
 || > 0 || Le canon se déplace normalement ||
 || 0 || Le canon ne peut pas se déplacer ||
 || < 0 || Les contrôles sont opposés et le canon peut sortir de la carte ||
+=== ANGLE_INCREMENT_CANON ===
+
 
 === CANON_1_ID & CANON_2_ID ===
 

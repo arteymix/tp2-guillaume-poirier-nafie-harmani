@@ -47,27 +47,46 @@ Objet [InterfaceGraphique].
 || false || ||
 
 === latency ===
+|| Négatif || ||
+|| 0 || || 
+|| 15 || ||
+|| >15 || || 
 
 === level ===
+|| 0 || ||
+|| Valeurs prévues (1,2,3,4) || ||
+|| > 4 || ||
 
 === paintDone ===
-
 || true || ||
 || false || ||
 
 === points ===
+|| Négatif || ||
+|| 0 || ||
+|| Positif || ||
 
 === rendu ===
 
-Thread pour le rendu graphique.
+Thread pour le rendu graphique, il est de type [InterfaceGraphique]
 
 === showHighscores ===
-
 || true || ||
 || false || ||
 
 === tempsDuRendu ===
+|| latency || ||
+|| > latency || ||
+|| < latency || ||
+|| 0 || ||
+|| < 0 || ||
 
 === tentaculesKilled ==
+|| Négatif || ||
+|| 0 || ||
+|| Positif || ||
 
 === timerSeconds ===
+|| Négatif || ||
+|| 0 || ||
+|| Positif || ||

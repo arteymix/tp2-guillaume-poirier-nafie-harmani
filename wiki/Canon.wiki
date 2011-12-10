@@ -46,4 +46,5 @@ Objet [Vecteur].
 === vie ===
 || Négatif || ||
 || 0 || ||
+|| VIE_INIT_CANON || Les vies sont définies comme voulu ||
 || Positif || ||

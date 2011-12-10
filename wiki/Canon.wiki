@@ -22,6 +22,8 @@ Il y a deux canons possibles.
 
 === FAST_SHOT_OBTAINED & POWER_FAST_SHOT_OBTAINED && POWER_SHOT_OBTAINED ===
 
+Ces variables n'ont aucune implication dans le jeu, elles ne servent qu'à l'affichage dans le mode de débogage.
+
 
 === VIE_INIT_CANON ===
 

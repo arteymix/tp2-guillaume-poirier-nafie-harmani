@@ -13,6 +13,9 @@
 
 === ID ===
 
+|| Valeurs prévues (constantes prédéfinies) || ||
+|| Valeurs imprévues || ||
+
 === PROBABILITE_APPARITION_OVNIS ===
 || Positif || ||
 || 0 || ||

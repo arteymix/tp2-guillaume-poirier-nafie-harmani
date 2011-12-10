@@ -49,8 +49,8 @@ Objet [InterfaceGraphique].
 
 === isRunning ===
 
-|| true || ||
-|| false || ||
+|| true || Valeur normale, tous les threads sont en fonction ||
+|| false || Les threads sont tous arrêté, le rendu fige ||
 
 === latency ===
 || Négatif || ||

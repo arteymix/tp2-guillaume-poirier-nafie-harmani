@@ -5,7 +5,16 @@
 = Variables =
 
 === PROBABILITE_APPARITION_OBJET_FLOTTANT ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === x ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === y ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||

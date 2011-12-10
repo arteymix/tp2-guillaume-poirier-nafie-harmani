@@ -5,11 +5,23 @@
 = Variables =
 
 === GRAVITY ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === position ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === rectangle ===
 
 === tetha ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||
 
 === vitesse ===
+|| Positif || ||
+|| 0 || ||
+|| Négatif || ||

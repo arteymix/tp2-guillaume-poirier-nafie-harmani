@@ -20,11 +20,6 @@ Classe contenant l'objet qui affiche les points que l'utilisateur obtient.
 === POINTS ===
 Il peut prendre n'importe quelle valeur entière.
 
-=== size ===
-|| Négatif || ||
-|| 0 || ||
-|| Positif || ||
-
 === POSITION_X ===
 || Négatif || Le pointage apparaît à l'extérieur de l'écran ||
 || 0 || Le pointage apparaît à l'origine en x ||

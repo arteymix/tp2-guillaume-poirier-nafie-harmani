@@ -24,10 +24,16 @@ Pas de jeux de tests, il s'agit d'identifiants uniques.
 || Negatif ||La bar de vie de l'ovni se dessine a coter de lui,pas sur lui. ||
 
 === boss1Killed ===
+|| true || On passe directement au boss 2 ||
+|| false || On doit battre le boss 1 || 
 
 === boss2Killed ===
+|| true || On passe directement au boss 3 si boss1Killed == true ||
+|| false || On doit battre le boss 2 si boss1Killed == true ||
 
 === boss3Killed ===
+|| true || si (boss1Killed && boss2Killed) == true, la partie est terminée ||
+|| false || le boss 3 doit être battu si le boss 1 et le boss 2 ont déjà été battu ||
 
 === isBoss ===
 || true || Aucun ovni est généré.||

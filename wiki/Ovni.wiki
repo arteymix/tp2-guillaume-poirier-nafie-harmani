@@ -6,9 +6,7 @@ Classe pour les ovnis.
 = Variables =
 
 === ENNEMI_X & ENNEMI_X_POINTS ===
-|| Positif || ||
-|| 0 || ||
-|| Négatif || ||
+Pas de jeux de tests, il s'agit d'identifiants uniques.
 
 
 === ID ===

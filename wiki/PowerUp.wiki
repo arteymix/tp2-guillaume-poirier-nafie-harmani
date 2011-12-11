@@ -5,8 +5,8 @@ Objet dessinable pour les powerups.
 
 = Variables =
 
-=== X_SHOT ===
-
 === id ===
+|| Valeurs prévues (1, 2 et 3) || Tout se passe bien. ||
+|| Valeurs imprévues || Le powerup apparait, mais ne donne pas de bonus. ||
 
 === rectangle ===

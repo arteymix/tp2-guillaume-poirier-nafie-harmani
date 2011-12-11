@@ -6,8 +6,8 @@ Fichier de classe pour un projectile.
 = Variables =
 
 === GRAVITY ===
-|| Positif || Les projectiles se déplacent vers le haut puis retombent vers le bas faisant un mouvement paraboliques normale.  ||
-|| 0 || Les projectiles ne suivent pas un mouvement paraboliques.||
+|| Positif || Les projectiles se déplacent vers le haut puis retombent vers le bas faisant un mouvement parabolique normale.  ||
+|| 0 || Les projectiles ne suivent pas un mouvement parabolique.||
 || Négatif || Les projectiles se déplacent vers le droite puis retombent vers le gauche faisant un mouvement parabolique anormale.||
 
 

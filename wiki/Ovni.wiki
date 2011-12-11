@@ -47,6 +47,7 @@ Pas de jeux de tests, il s'agit d'identifiants uniques.
 Objet [Vecteur].
 
 === random ===
+Pas de jeux de tests, il s'agit d'un objet Random.
 
 === rectangle ===
 

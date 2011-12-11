@@ -11,6 +11,7 @@ Objet [Vecteur]
 
 === nbFrame ===
 
-|| 0 || ||
-|| 10 || ||
-|| Négatif || ||
+|| 0 || Aucune explosion n'est visible ||
+|| 10 || Valeur normale ||
+|| > 10 || L'explosion n'est pas bien timé ||
+|| Négatif || Aucune explosion n'est visible ||

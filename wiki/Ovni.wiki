@@ -12,18 +12,18 @@ Classe pour les ovnis.
 
 
 === ID ===
-|| Valeurs prévues (constantes prédéfinies) || ||
-|| Valeurs imprévues || ||
+|| Valeurs prévues (constantes prédéfinies) ||L'ovni dont l'identificateur est prévu, apparaît.||
+|| Valeurs imprévues || Un message qui dit :"Veuillez entre une identification valide (id) dans le constructuer de l'objet" apparaît.||
 
 === PROBABILITE_APPARITION_OVNIS ===
-|| Positif || ||
-|| 0 || ||
-|| Negatif || ||
+|| Positif || Apparition d'un ovni selon la fréquence de la probabilité, ||
+|| 0 ||Un message d'erreur apparaît qui dit :Exception in thread "AWT-EventQueue-0" java.lang.IllegalArgumentException: n must be positive" ||
+|| Negatif ||Un message d'erreur apparaît qui dit :Exception in thread "AWT-EventQueue-0" java.lang.IllegalArgumentException: n must be positive" ||
 
 === VIE_INIT ===
-|| Positif || ||
-|| 0 || ||
-|| Negatif || ||
+|| Positif ||L'ovni est qualifié de la valeur de vie initiale. ||
+|| 0 ||La bar de vie de l'ovni se dessine depuis l'axe des y. ||
+|| Negatif ||La bar de vie de l'ovni se dessine a coter de lui,pas sur lui. ||
 
 === boss1Killed ===
 
@@ -32,12 +32,12 @@ Classe pour les ovnis.
 === boss3Killed ===
 
 === isBoss ===
-|| true || ||
-|| false || ||
+|| true || Aucun ovni est généré.||
+|| false ||Les ovnis sont généré normalement. ||
 
 === isOr ===
-|| true || ||
-|| false || ||
+|| true ||Les ovnis générés sont tous en or. ||
+|| false ||Aucun ovnis en or est généré. ||
 
 === position ===
 Objet [Vecteur].
@@ -47,26 +47,26 @@ Objet [Vecteur].
 === rectangle ===
 
 === shootRate ===
-|| Positif || ||
-|| 0 || ||
-|| Négatif || ||
+|| Positif || La probabilité d'apparition du projectile ennemi est attribué.||
+|| 0 || Un message d'erreur apparaît qui dit :Exception in thread "AWT-EventQueue-0" java.lang.IllegalArgumentException: n must be positive"||
+|| Négatif ||Un message d'erreur apparaît qui dit :Exception in thread "AWT-EventQueue-0" java.lang.IllegalArgumentException: n must be positive" ||
 
 === vie ===
-|| Positif || ||
-|| 0 || ||
-|| Négatif || ||
+|| Positif ||Les point de vies de l'ovni est attribué. ||
+|| 0 ||Les ovnis meurt a l'apparition. ||
+|| Négatif ||Les ovnis meurt quelque soit la collision. ||
 
 === vitesseX ===
-|| Positif || ||
-|| 0 || ||
-|| Négatif || ||
+|| Positif ||La vitesse de l'ovni est attribué.Ils bougent vers le coté désirer. ||
+|| 0 || L'ovni reste immobile.||
+|| Négatif ||Les ovnis bougent vers la direction opposé a la normale. ||
 
 === xDirection ===
-|| Positif || ||
-|| 0 || ||
-|| Négatif || ||
+|| Positif ||Le boss se déplace vers la droite. ||
+|| 0 ||Le boss est immobile. ||
+|| Négatif || Le boss se déplace vers la gauche. ||
 
 === yDirection ===
-|| Positif || ||
-|| 0 || ||
-|| Négatif || ||
+|| Positif ||Le boss se déplace vers la bas. ||
+|| 0 ||Le boss est immobile. ||
+|| Négatif ||Le boss se déplace vers la haut. ||

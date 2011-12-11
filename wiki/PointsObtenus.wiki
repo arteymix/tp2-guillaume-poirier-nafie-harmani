@@ -6,7 +6,9 @@
 Classe contenant l'objet qui affiche les points que l'utilisateur obtient.
 
 === delay ===
-
+|| Négatif || Le pointage n'apparaît pas ||
+|| 0 || Le pointage n'apparaît pas ||
+|| Positif || Le pointage apparaît normalement ||
 
 === size ===
 || Négatif || Le point n’apparaît pas. ||
@@ -16,9 +18,7 @@ Classe contenant l'objet qui affiche les points que l'utilisateur obtient.
 === font ===
 
 === POINTS ===
-|| Négatif || ||
-|| 0 || ||
-|| Positif || ||
+Il peut prendre n'importe quelle valeur entière.
 
 === size ===
 || Négatif || ||
@@ -26,11 +26,11 @@ Classe contenant l'objet qui affiche les points que l'utilisateur obtient.
 || Positif || ||
 
 === POSITION_X ===
-|| Négatif || ||
-|| 0 || ||
-|| Positif || ||
+|| Négatif || Le pointage apparaît à l'extérieur de l'écran ||
+|| 0 || Le pointage apparaît à l'origine en x ||
+|| Positif || Le pointage apparaît au point spécifié en x ||
 
 === POSITION_Y ===
-|| Négatif || ||
-|| 0 || ||
-|| Positif || ||
+|| Négatif || Le pointage apparaît à l'extérieur de l'écran ||
+|| 0 || Le pointage apparaît à l'origine en y ||
+|| Positif ||  Le pointage apparaît au point spécifié en y ||

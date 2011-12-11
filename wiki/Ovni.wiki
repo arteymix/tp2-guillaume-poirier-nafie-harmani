@@ -21,7 +21,7 @@ Pas de jeux de tests, il s'agit d'identifiants uniques.
 === VIE_INIT ===
 || Positif ||L'ovni est qualifié de la valeur de vie initiale. ||
 || 0 ||La bar de vie de l'ovni se dessine depuis l'axe des y. ||
-|| Negatif ||La bar de vie de l'ovni se dessine a coter de lui,pas sur lui. ||
+|| Negatif ||La bar de vie de l'ovni se dessine a côté de lui,pas sur lui. ||
 
 === boss1Killed ===
 || true || On passe directement au boss 2 ||
@@ -58,13 +58,13 @@ Pas de jeux de tests, il s'agit d'un objet Random.
 
 === vie ===
 || Positif ||Les point de vies de l'ovni est attribué. ||
-|| 0 ||Les ovnis meurt a l'apparition. ||
-|| Négatif ||Les ovnis meurt quelque soit la collision. ||
+|| 0 ||Les ovnis meurent à leurs apparitions. ||
+|| Négatif ||Les ovnis meurent quelque soit la collision. ||
 
 === vitesseX ===
-|| Positif ||La vitesse de l'ovni est attribué.Ils bougent vers le coté désirer. ||
+|| Positif ||La vitesse de l'ovni est attribué. Ils bougent vers le côté désirer. ||
 || 0 || L'ovni reste immobile.||
-|| Négatif ||Les ovnis bougent vers la direction opposé a la normale. ||
+|| Négatif ||Les ovnis bougent vers la direction opposée à la normale. ||
 
 === xDirection ===
 || Positif ||Le boss se déplace vers la droite. ||

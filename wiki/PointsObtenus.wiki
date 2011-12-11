@@ -6,9 +6,12 @@
 Classe contenant l'objet qui affiche les points que l'utilisateur obtient.
 
 === delay ===
-|| Négatif || ||
-|| 0 || ||
-|| Positif || ||
+
+
+=== size ===
+|| Négatif || Le point n’apparaît pas. ||
+|| 0 || Le point apparaît, mais commence avec une taille de 0 ||
+|| Positif || Il apparaît avec la taille spécifié initialement ||
 
 === font ===
 

@@ -16,6 +16,7 @@ Classe contenant l'objet qui affiche les points que l'utilisateur obtient.
 || Positif || Il apparaît avec la taille spécifié initialement ||
 
 === font ===
+font est un objet Font.
 
 === POINTS ===
 Il peut prendre n'importe quelle valeur entière.

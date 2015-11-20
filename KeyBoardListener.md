@@ -1,0 +1,10 @@
+# Introduction #
+Le KeyBoardListener est un ArrayListe itéré par un Thread interne. Il permet d'ajouter les touches enfoncés et d'enlever les touches relâchés afin de simuler le multitouch du clavier avec le KeyListener de Swing. La référence de la classe Main est fait implicitement, ce qui veut dire que ce code fonctionnera uniquement avec la structure de classe du TP2 et ne peut être adapté à d'autres projets à moins d'altérer ce code. De plus, les accès aux méthodes de l'ArrayList sont synchronisés afin d'éviter les références nulles et les autres exceptions de threads concurrents.
+
+# Variables #
+
+### CANON\_1 & CANON\_2 ###
+
+Objets de type [Canon](Canon.md).
+
+### enabledKeys ###
